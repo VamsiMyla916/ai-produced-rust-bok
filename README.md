@@ -1,6 +1,6 @@
-# Rust Body of Knowledge (BoK) Project
+# AI produced Rust Body of Knowledge (BoK)
 
-This repository contains the Body of Knowledge for the Rust programming language, generated using Large Language Models (LLMs) following the ACM CS2023 curriculum standards.
+This repository contains the two prompts where one is used to generate the Body of Knowledge for the Rust programming language and the other one for evaluating the generated response using Large Language Models (LLMs) following the ACM CS2023 curriculum standards.
 
 ## Prompts Used
 
@@ -41,7 +41,7 @@ You **must** follow this exact layout for every Knowledge Unit. Do not deviate.
 Draft the full Body of Knowledge now. Ensure "Move Semantics," "Borrow Checker," and "Tokio" are prominent topics.
 ```
 
-### Prompt 2: The Evaluator (Quality Assurance): This prompt helps to "grade" the output. If the first prompt missed anything, this prompt will force the AI to identify the missing pieces.
+### Prompt 2: The Evaluator (Quality Assurance): This prompt helps to grade the output. If the first prompt missed anything, this prompt will force the AI to identify the missing pieces.
 
 ```
 **System Role:**
