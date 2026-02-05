@@ -2,7 +2,11 @@
 
 This repository contains the two prompts where one is used to generate the Body of Knowledge for the Rust programming language and the other one for evaluating the generated response using Large Language Models (LLMs) following the ACM CS2023 curriculum standards.
 
-LLM used: Claude sonet 4.5
+### LLM used: Claude sonet 4.5
+
+## Workflow Strategy
+
+**Isolation Protocol:** Initially, I implemented the _Generation Prompt_ in a new chat session. I then copied the generated response and pasted it into a **different, fresh session** along with the _Evaluation Prompt_. This ensured the verification process was conducted without any interference or bias from the LLM's short-term memory of the first session.
 
 ## Prompts Used
 
