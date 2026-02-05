@@ -2,6 +2,8 @@
 
 This repository contains the two prompts where one is used to generate the Body of Knowledge for the Rust programming language and the other one for evaluating the generated response using Large Language Models (LLMs) following the ACM CS2023 curriculum standards.
 
+LLM used: Claude sonet 4.5
+
 ## Prompts Used
 
 Below are the exact prompts used to generate and verify the curriculum.
